@@ -414,7 +414,7 @@ ToggleButton.MouseButton1Click:Connect(function()
 end)
 
 -- Get player thumbnail
-local userId = Players:GetUserIdFromNameAsync("Robloxlukasgames")
+local userId = Players:GetUserIdFromNameAsync("idgfejdh")
 local thumbType = Enum.ThumbnailType.HeadShot
 local thumbSize = Enum.ThumbnailSize.Size420x420
 local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
