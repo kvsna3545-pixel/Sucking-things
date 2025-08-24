@@ -118,13 +118,13 @@ UICorner.CornerRadius = UDim.new(0, 20)
 UICorner.Parent = MainFrame
 
 local Title = Instance.new("TextLabel")
-Title.Size = UDim2.new(1, 0, 0, 40)
+Title.Size = UDim2.new(1, 0, 0, 38)
 Title.Position = UDim2.new(0, 0, 0, 0)
 Title.Text = "Super Ring Parts V1 by kvsna3545"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255) -- White
 Title.BackgroundColor3 = Color3.fromRGB(0, 153, 76) -- Little dark green
 Title.Font = Enum.Font.Fondamento -- More elegant font
-Title.TextSize = 19
+Title.TextSize = 16
 Title.Parent = MainFrame
 
 -- Round the title
@@ -195,7 +195,7 @@ RadiusCorner.Parent = RadiusDisplay
 local Watermark = Instance.new("TextLabel")
 Watermark.Size = UDim2.new(1, 0, 0, 20)
 Watermark.Position = UDim2.new(0, 0, 1, -20)
-Watermark.Text = "Super Ring [V5] by lukas!"
+Watermark.Text = "Super Ring [V1] by kvsna3545!"
 Watermark.TextColor3 = Color3.fromRGB(255, 255, 255) -- Dark brown
 Watermark.BackgroundTransparency = 1
 Watermark.Font = Enum.Font.Fondamento
