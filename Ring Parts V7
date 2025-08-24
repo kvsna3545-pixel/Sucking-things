@@ -36,7 +36,7 @@ ScreenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
 local MainFrame = Instance.new("Frame")
 MainFrame.Size = UDim2.new(0, 250, 0, 320)
 MainFrame.Position = UDim2.new(1, -270, 1, -340)
-MainFrame.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+MainFrame.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
 MainFrame.BorderSizePixel = 0
 MainFrame.Parent = ScreenGui
 
@@ -48,7 +48,7 @@ local Title = Instance.new("TextLabel")
 Title.Size = UDim2.new(1, 0, 0, 40)
 Title.Position = UDim2.new(0, 0, 0, 0)
 Title.Text = "DUAL RING V.3"
-Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
 Title.BackgroundColor3 = Color3.fromRGB(50, 50, 80)
 Title.Font = Enum.Font.GothamBold
 Title.TextSize = 17
